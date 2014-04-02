@@ -1,0 +1,500 @@
+.hidden
+{
+    display:none;
+}
+
+#container
+{
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+#monopoly-frame
+{
+    top:7%;
+    left:15%;
+    height:86%;
+    width:70%;
+    position:absolute;
+    border:1px solid #000;
+    background:#CBE9DF url(images/main-bkg.png) no-repeat center center;
+    margin:0 auto;
+}	
+
+#monopoly-frame div.level0
+{
+	height:10%;
+	width:10%;
+	text-align:center;
+	position:absolute;
+}
+
+/* City background layer */
+
+ #cell1 div.level1
+ {
+    background: url(images/staticSquares/go.gif) no-repeat center center ;     
+ }
+ 
+.board #cell4 div.level1
+ {
+     background: url(images/staticSquares/quest.gif) no-repeat center center ;
+ }
+
+ .board #cell9 div.level1
+{
+    background: url(images/staticSquares/exclamation.gif) no-repeat center center ;
+}
+
+.board #cell10 
+{
+    background: url(images/staticSquares/jail.gif) no-repeat center center ;
+}
+
+.board #cell19 div.level1
+{
+    background: url(images/staticSquares/parking.gif) no-repeat center center ;
+}
+
+.board #cell23 div.level1
+{
+    background: url(images/staticSquares/exclamation.gif) no-repeat center center ;
+}
+
+.board #cell28 div.level1
+{
+    background: url(images/staticSquares/go_to_jail.jpg) no-repeat center center ;
+}
+
+
+#monopoly-frame div.level1
+{
+    height:100%;
+    width:100%;
+    display:block;
+    text-indent:-5000em;
+
+    -webkit-background-size: 100% 100%!important;
+    -moz-background-size:  100% 100%!important;
+    -o-background-size: 100% 100%!important;
+    background-size:  100% 100%!important;
+}
+
+/* border of cells */
+
+.north 
+{
+        border:1px solid #000;
+}
+
+.east 
+{
+        border:1px solid #000;
+}
+
+.south 
+{
+        border:1px solid #000;
+}
+
+.west 
+{
+        border:1px solid #000;
+}
+
+.north,  .northeast, .northwest 
+{
+    	top:0;
+}
+
+.east, .southeast, .northeast
+{
+	right:0;
+}
+
+.south, .southeast, .southwest 
+{
+	bottom:0;
+}
+
+.west, .southwest, .northwest 
+{
+    left:0;
+}
+
+/* position of cells */
+
+#cell1
+{
+	left:0;
+}
+#cell2
+{
+	left:10%;
+}
+#cell3
+{
+	left:20%;
+}
+#cell4
+{
+	left:30%;
+}
+#cell5
+{
+	left:40%;
+}
+#cell6
+{
+	left:50%;
+}
+#cell7
+{
+	left:60%;
+}
+#cell8
+{
+	left:70%;
+}
+#cell9
+{
+	left:80%;
+}
+#cell10
+{
+	left:90%;
+}
+
+#cell11
+{
+	top:10%;
+}
+#cell12
+{
+	top:20%;
+}
+#cell13
+{
+	top:30%;
+}
+#cell14
+{
+	top:40%;
+}
+#cell15
+{
+	top:50%;
+}
+#cell16
+{
+	top:60%;
+}
+#cell17
+{
+	top:70%;
+}
+#cell18
+{
+	top:80%;
+}
+#cell19
+{
+	top:90%;
+}
+
+#cell20
+{
+	right:10%;
+}
+#cell21
+{
+	right:20%;
+}
+#cell22
+{
+	right:30%;
+}
+#cell23
+{
+	right:40%;
+}
+#cell24
+{
+	right:50%;
+}
+#cell25
+{
+	right:60%;
+}
+#cell26
+{
+	right:70%;
+}
+#cell27
+{
+	right:80%;
+}
+#cell28
+{
+	right:90%;
+}
+#cell29
+{
+	top:80%;
+}
+#cell30
+{
+	top:70%;
+}
+#cell31
+{
+	top:60%;
+}
+#cell32
+{
+	top:50%;
+}
+#cell33
+{
+	top:40%;
+}
+#cell34
+{
+	top:30%;
+}
+#cell35
+{
+	top:20%;
+}
+
+#cell36
+{
+	top:10%;
+}
+
+/* player individual background color */
+
+.player1-asset
+{
+    background-color: #717ae9!important;
+}
+.player2-asset
+{
+    background-color:#fc526a!important;
+}
+.player3-asset
+{
+    background-color:#81fe74!important;
+}
+.player4-asset
+{
+    background-color:#fecf74!important;
+}
+.player5-asset
+{
+    background-color:#97fdf9!important;
+}
+.player6-asset
+{
+    background-color:#fe72e9!important;
+}
+
+/* assets layer */
+
+
+.house1 div.level2,
+.house2 div.level2,
+.house3 div.level2
+{
+    background: transparent url(images/house1.png) no-repeat center top;
+}
+
+.house2 div.level2
+{
+    background-image:url(images/house2.png);
+}
+
+.house3 div.level2
+{
+    background-image:url(images/house3.png);
+}
+
+ div.level2{
+     height:100%;
+     -webkit-background-size: 100% 100%!important;
+     -moz-background-size:  100% 100%!important;
+     -o-background-size: 100% 100%!important;
+     background-size:  100% 100%!important;
+}
+ div.level3{
+     height:100%;
+     padding-top:30%;
+ }
+
+#cell1  div.level3{
+    padding-top:10%;
+}
+
+#player1,
+#player2,
+#player3,
+#player4,
+#player5,
+#player6
+{
+    background:transparent url(images/players/blue.gif) no-repeat center center;
+    width:32px;
+    height:32px;
+    position:absolute;
+}
+
+#player2{
+    background-image:url(images/players/red.gif);
+}
+#player3{
+    background-image:url(images/players/green.gif);
+}
+#player4{
+    background-image:url(images/players/orange.gif);
+}
+#player5{
+    background-image:url(images/players/cyan.gif);
+}
+#player6{
+    background-image:url(images/players/magenta.gif);
+}
+
+#playersLegend
+{
+    border:1px solid black;
+    top:15%;
+    right:15%;
+    position:absolute;
+    padding:10px;
+}
+
+#playersLegend ul{
+    padding:0;
+    margin:0;
+}
+
+#playersLegend li.player1,
+#playersLegend li.player2,
+#playersLegend li.player3,
+#playersLegend li.player4,
+#playersLegend li.player5,
+#playersLegend li.player6{
+    background:transparent url(images/players/blue.gif) no-repeat left center;
+    padding:6px 0 6px 34px;
+    list-style:none;
+}
+
+#playersLegend li.player2{
+    background-image:url(images/players/red.gif);
+}
+#playersLegend li.player3{
+    background-image:url(images/players/green.gif);
+}
+#playersLegend li.player4{
+    background-image:url(images/players/orange.gif);
+}
+#playersLegend li.player5{
+    background-image:url(images/players/cyan.gif);
+}
+#playersLegend li.player6{
+    background-image:url(images/players/magenta.gif);
+}
+
+.dialog
+{
+    border:1px solid black;
+    top:40%;
+    left:40%;
+    position:absolute;
+    padding:10px;
+    background:#fff;
+    width:50%; 
+    height:50%;
+}
+
+.dialog .ft
+{
+    position:absolute;
+    bottom:0;
+    padding:10px;
+    text-align:right;
+    width:90%;
+}
+
+#questDialog
+{
+    background:#fff url(images/question.png) no-repeat 20px 20px;
+}
+
+#messageDialog
+{
+    background:#fff url;
+}
+
+
+#dicesDialog
+{
+    background:#fff url(images/dices.png) no-repeat 20px 20px;
+}
+
+.dialog div.question
+{
+    margin-left: 150px;
+    font-size:150%;
+    padding:20px;
+}
+
+#resign
+{
+    top: 82%;
+    left: 15%;
+    position:absolute;
+}
+
+#surprise
+{
+    background: #ff9;
+}
+
+#warrant
+{
+    background: coral;
+}
+
+#dice1
+{
+    position: absolute;
+    top: 20%;
+    left: 15%;
+    width: 10%;
+    height: 20%;
+}
+
+#dice2
+{
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    width: 10%;
+    height: 20%;
+}
+
+#console
+{
+    background: #fff;
+    border: 1px solid #000;    
+    position: absolute;
+    left: 15%;
+    top: 50%;
+    width: 25%;
+    height: 30%;
+    overflow: scroll;
+}
